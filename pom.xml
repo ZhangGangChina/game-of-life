@@ -53,14 +53,14 @@
                             <skip>false</skip>
                             <includes>
                                 <include>**/When*.java</include>
-                                <include>**/*Test.java</include>
+                                <include>**/*Tests.java</include>
                             </includes>
                             <excludes>
                                 <exclude>%regex[.*integration.*]</exclude>
                             </excludes>
                         </configuration>
                     </execution>
-                    <execution>
+<!--                     <execution>
                         <id>integration-tests</id>
                         <phase>integration-test</phase>
                         <goals>
@@ -72,7 +72,7 @@
                                 <include>%regex[.*integration.*]</include>
                             </includes>
                         </configuration>
-                    </execution>
+                    </execution> -->
                 </executions>
             </plugin>
             <!-- CODE COVERAGE -->
